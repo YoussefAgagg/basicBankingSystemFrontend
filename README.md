@@ -1,7 +1,7 @@
 # BasicBankingSystemFrontend
 
-the website [demo](https://youssefagagg.github.io/basicBankingSystemFrontend/) <br>
-the backend repo for the app [backend](https://github.com/YoussefAgagg/basicBankingSystemBackend)<br>
+#### the website [demo](https://youssefagagg.github.io/basicBankingSystemFrontend/) <br>
+#### the backend repo for the app [backend](https://github.com/YoussefAgagg/basicBankingSystemBackend)<br>
 
 ## about
 the frontend for task 1 in the Sparks Foundation Internship for Web Development
