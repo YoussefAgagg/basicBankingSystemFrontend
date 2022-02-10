@@ -5,11 +5,13 @@ import { HomeComponent } from './home/home.component';
 import { CustomerDetailsComponent } from './customer-details/customer-details.component';
 import { TransferMoneyComponent } from './transfer-money/transfer-money.component';
 
+
 const routes: Routes = [
   {path:"customers",component: ViewAllCustomersComponent},
   { path: 'customers/:id', component: CustomerDetailsComponent },
   { path: 'transfer/:id', component: TransferMoneyComponent },
-  { path: '', component: HomeComponent}
+  { path: 'home', component: HomeComponent },
+  { path: '',redirectTo: 'home', pathMatch: 'full'}
 ];
 
 @NgModule({
