@@ -1,0 +1,15 @@
+<app-navbar></app-navbar>
+<h2 class="m-4">all customers</h2>
+<div class="container" *ngFor="let customer of customers">
+  
+    <div class="card">
+      <div class="card-body">
+       <strong>id:</strong> {{customer.id}}<br>
+       <strong>name:</strong> {{customer.firstName+' '+customer.lastName}}<br>
+       <strong>balance:</strong>{{customer.balance}}<br>
+        <div class="float-right">
+        <button  (click)="viewCustomerDetail(customer.id)"type="button" class="btn btn-dark">view more details</button></div>
+      </div>
+</div>
+</div>
+<app-footer></app-footer>

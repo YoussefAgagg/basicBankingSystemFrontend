@@ -1,0 +1,23 @@
+<app-navbar></app-navbar>
+<h2 class="m-4">customer details</h2>
+<div class="container">
+  
+    <div class="card">
+      <div class="card-body">
+          <div class="form-lable  m-2">
+       <strong>id:</strong> {{customer.id}}<br></div>
+       <div class="form-lable m-2">
+       <strong>name:</strong> {{customer.firstName+' '+customer.lastName}}<br></div>
+       <div class="form-lable m-2">
+       <strong>balance:</strong>{{customer.balance}}<br></div>
+       <div class="form-lable m-2">
+       <strong>email:</strong>{{customer.email}}<br></div>
+       <div class="form-lable m-2">
+       <strong>birthdate:</strong>{{customer.birthdate|date:'mediumDate'}}<br></div>
+
+        <div class="float-right">
+        <button (click)="transferMony(customer.id)" type="button" class="btn btn-dark">trnsfer money</button></div>
+      </div>
+</div>
+</div>
+<app-footer></app-footer>
