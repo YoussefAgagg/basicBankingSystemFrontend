@@ -1,27 +1,26 @@
 # BasicBankingSystemFrontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
+#### the website [demo](https://youssefagagg.github.io/basicBankingSystemFrontend/) <br>
+#### the backend repo for the app [backend](https://github.com/YoussefAgagg/basicBankingSystemBackend)<br>
 
-## Development server
+## about
+the frontend for task 1 in the Sparks Foundation Internship for Web Development
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Task 1 Requirements:
+* Create a simple dynamic website which has the following specs.
+* Start with creating a dummy data in database for upto 10 customers . Database options : Mysql , Mongo , Postgres , etc. Customers table will have basic fields such as name , email , current balance etc. Transfers table will record all transfers happened .
+* Flow : Home Page > View all Customers > Select and View one Customer > Transfer Money > Select customer to transfer to > View all Customers .
+* No Login Page . No User Creation . Only transfer of money between multiple users .
+* Host the website at 000webhost , github.io , heroku app or any other free hosting provider . Check in code in gitlab .
 
-## Code scaffolding
+## Technologies
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Angular
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## links to the webapp
+* home page (https://youssefagagg.github.io/basicBankingSystemFrontend/home)
+* to see all customers (https://youssefagagg.github.io/basicBankingSystemFrontend/customers)
+* to see a specific customer (https://youssefagagg.github.io/basicBankingSystemFrontend/customers/3)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
