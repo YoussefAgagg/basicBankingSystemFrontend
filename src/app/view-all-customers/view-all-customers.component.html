@@ -1,5 +1,12 @@
 <app-navbar></app-navbar>
 <h2 class="m-4">all customers</h2>
+
+<div class="d-flex justify-content-center" *ngIf="showProgressBar">
+  <div class="spinner-border" role="status" >
+    <span class="sr-only" id="loading" ></span>
+  </div>
+</div>
+
 <div class="container" *ngFor="let customer of customers">
   
     <div class="card">
